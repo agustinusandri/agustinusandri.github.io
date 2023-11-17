@@ -69,12 +69,13 @@ backdrop-filter: blur(3px);
 
 .mynavbar .offcanvas {
     height: 100vh;
+    width: 250px;
 }
 
 .mynavbar .navbar-brand,
 .mynavbar .offcanvas-title {
 font-family: 'EB Garamond', serif;
-font-size: 2.5rem;
+font-size: 2rem;
 }
 
 
@@ -85,7 +86,7 @@ text-align: center;
 
 
 .home {
-    background-image: url(image/chritmas.jpg);
+    background-image: url(image/chtms.jpg);
     background-size: cover;
     min-height: 100vh;
     margin-top: -6rem;
@@ -212,7 +213,7 @@ text-align: center;
 .rsvp {
     padding-top: 10rem;
     padding-bottom: 8rem;
-    background-image: url(image/natalagus.jpeg);
+    background-image: url(image/andri.jpeg);
 }
 
 .rsvp p,
