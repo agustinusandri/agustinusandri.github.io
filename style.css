@@ -85,7 +85,7 @@ text-align: center;
 
 
 .home {
-    background-image: url(image/ntl.jpg);
+    background-image: url(image/chritmas.jpg);
     background-size: cover;
     min-height: 100vh;
     margin-top: -6rem;
@@ -101,9 +101,14 @@ text-align: center;
 }
 
 .home h3 {
-    color: #444;
+    color:var(--bg);
     font-size: 1.5rem;
     margin-bottom: 1rem;
+}
+
+.home h1{
+    color: darkmagenta;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 .home p {
@@ -176,6 +181,11 @@ text-align: center;
     font-weight: bold;
 }
 
+.galerry h5{
+    font-family: 'Cormorant Garamond', serif;
+    color: darkmagenta;
+}
+
 .galerry span {
     text-transform: uppercase;
     color: #666;
@@ -184,6 +194,7 @@ text-align: center;
     display: block;
     margin-bottom: 1rem;
 }
+
 
 .galerry p,
 .rsvp p {
