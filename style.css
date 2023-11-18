@@ -69,7 +69,8 @@ backdrop-filter: blur(3px);
 
 .mynavbar .offcanvas {
     height: 100vh;
-    width: 250px;
+    width: 50%;
+    background-color: palegreen;
 }
 
 .mynavbar .navbar-brand,
@@ -324,6 +325,7 @@ footer li {
     .mynavbar .nav-link{
         text-transform: uppercase;
         font-size: 2rem;
+        text-align: center;
         }
 
         .sticky-top {
