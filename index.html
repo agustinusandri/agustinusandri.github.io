@@ -26,7 +26,7 @@
         <h1><b>GKKI MASADA BEKASI</b></h1>
         <p><b>Akan Melaksanakan Kegiatan Perayaan Natal Dalam :</b></p>
         <div class="simply-countdown"></div>
-        <a href="#home" class="btn btn-lg mt-4" onClick="enableScroll ()">Lihat Undangan</a>
+        <a href="#home" class="btn btn-lg mt-4" onClick="enableScroll()">Lihat Undangan</a>
     </main>
    </section>
 
@@ -343,17 +343,17 @@
       function enableScroll () {
         window.onscroll = function () {}
         rootElement.style.scrollBehavior = 'smooth';
-        // localStorage.setItem('opened', 'true');
         playAudio ();
+        // localStorage.setItem('opened', 'true');
       }
 
       function playAudio() {
-        song.volume =0.1;
+        song.volume =0.2;
         audioIconWrapper.style.display ='flex';
         song.play();
         isPlaying = true;
       }
-      
+
       audioIconWrapper.onclick = function () {
         if (isPlaying) {
           song.pause();
@@ -372,20 +372,20 @@
     </script>
     <script>
       window.addEventListener("load", function() {
-  const form = document.getElementById('my-form');
-  form.addEventListener("submit", function(e) {
-    e.preventDefault();
-    const data = new FormData(form);
-    const action = e.target.action;
-    fetch(action, {
-      method: 'POST',
-      body: data,
-    })
-    .then(() => {
-      alert("Konfirmasi kehadiran berhasil terkirim!");
-    })
-  });
-});
+        const form = document.getElementById('my-form');
+        form.addEventListener("submit", function(e) {
+          e.preventDefault();
+          const data = new FormData(form);
+          const action = e.target.action;
+          fetch(action, {
+            method: 'POST',
+            body: data,
+          })
+          .then(() => {
+            alert("Konfirmasi kehadiran berhasil terkirim!");
+          })
+        });
+      });
 
     </script>
   </body>
