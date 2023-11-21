@@ -64,25 +64,35 @@ font-size: 5rem;
 
 .mynavbar {
 background-color: rgba(255, 255, 255, 0.3,) !important;
-backdrop-filter: blur(3px);
 }
+
 
 .mynavbar .offcanvas {
     height: 100vh;
     width: 50%;
-    background-color: palegreen;
+    background-color:grey;
+
 }
 
-.mynavbar .navbar-brand,
-.mynavbar .offcanvas-title {
+.mynavbar .navbar-brand{
 font-family: 'EB Garamond', serif;
 font-size: 2rem;
+font-weight:bolder;
 }
+
+
+.mynavbar .offcanvas-title{
+font-family: 'EB Garamond', serif;
+font-size: 2rem;
+font-weight:bolder;
+}
+
 
 
 .mynavbar .nav-link{
 text-transform: uppercase;
 text-align: center;
+font-weight : bolder;
 }
 
 
@@ -341,6 +351,7 @@ footer li {
     .simply-countdown>.simply-section {
         padding: 45px;
         margin: 3px;
-    }
+    } 
 
 }
+
